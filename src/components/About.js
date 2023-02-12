@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from './Title'
+import img from '../images/about.jpeg'
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
       <div className="section-center about-center">
         <div className="about-img">
           <img
-            src="./images/about.jpeg"
+            src={img}
             className="about-photo"
             alt="awesome beach"
           />
