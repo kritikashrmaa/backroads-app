@@ -11,7 +11,7 @@ const Tours = () => {
         {
           tours.map((item)=>{
             return(
-              <article className="tour-card">
+              <article className="tour-card" key={item.id}>
           <div className="tour-img-container">
             <img src={item.image} className="tour-img" alt="" />
             <p className="tour-date">{item.date}</p>

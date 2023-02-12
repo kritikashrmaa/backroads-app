@@ -9,7 +9,7 @@ const Footer = () => {
       {
         pageLinks.map((i)=>{
           return(
-            <li>
+            <li key={i.id}>
             <a href={i.href} className="footer-link">{i.text}</a>
           </li>
           )
@@ -20,7 +20,7 @@ const Footer = () => {
       {
         socialLinks.map((i)=>{
           return(
-      <li>
+      <li key={i.id}>
          
           <a href={i.href} 
             target="_blank" 

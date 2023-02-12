@@ -87,7 +87,7 @@ export const tours=[
     cost:'$3300'
   },
   {
-    id:4,
+    id:5,
     image:img5,
     date:'december 5th, 2019',
     title:'Wild with Australia',
@@ -97,7 +97,7 @@ export const tours=[
     cost:'$2900'
   },
   {
-    id:4,
+    id:6,
     image:img6,
     date:'december 5th, 2019',
     title:'Namaste India',
